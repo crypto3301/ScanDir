@@ -1,3 +1,4 @@
+**BETA !!! Too much bags...**
 ![image](https://github.com/user-attachments/assets/45727f80-0f02-4742-a1c3-2b2311c5cfd6)
 
 # SnapScan
