@@ -44,4 +44,4 @@
 1. Убедитесь, что у вас установлен Go. Если нет, скачайте и установите его с [golang.org](https://golang.org/).
 2. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/crypto3301/SnapScan
+   git clone https://github.com/crypto3301/ScanDir.git
