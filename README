@@ -1,0 +1,46 @@
+SnapScan is a utility written in Golang designed for creating snapshots of directories. It ensures file integrity by calculating file hashes. The utility features a graphical user interface (GUI) for ease of use.
+
+Features
+Directory Snapshots: Create snapshots of directories to capture their current state.
+
+File Integrity: Calculate file hashes (SHA-256) to ensure data integrity.
+
+GUI Interface: Navigate through the interface using the keyboard.
+
+Tab: Switch between windows.
+
+Arrow Keys: Navigate through file lists.
+
+Enter: Select a file or execute a command.
+
+Space: Equivalent to the Esc key for returning to the previous screen.
+
+Windows
+LOG Window
+Purpose: Logs all executed commands and their outputs.
+
+Usage: Displays real-time logs of actions performed in the utility.
+
+INFO Window
+Purpose: Used for working with snapshots.
+
+Navigation:
+
+Use the Arrow Keys to navigate through the list of files.
+
+Press Enter to select a file or execute an action.
+
+Press Space to return to the previous screen (equivalent to Esc).
+
+Terminal Window
+Purpose: Command input and execution.
+
+Usage: Enter commands directly into the terminal window to interact with the utility.
+
+Installation
+Ensure you have Go installed on your system. If not, download and install it from golang.org.
+
+Clone the repository:
+
+git clone https://github.com/yourusername/SnapScan.git
+
