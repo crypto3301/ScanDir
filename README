@@ -1,46 +1,47 @@
-SnapScan is a utility written in Golang designed for creating snapshots of directories. It ensures file integrity by calculating file hashes. The utility features a graphical user interface (GUI) for ease of use.
+# SnapScan
 
-Features
-Directory Snapshots: Create snapshots of directories to capture their current state.
+**SnapScan** — это утилита, написанная на языке Golang, предназначенная для создания снимков (snapshots) директорий. Она обеспечивает целостность данных, рассчитывая хэши файлов. Для удобства использования утилита имеет графический интерфейс (GUI).
 
-File Integrity: Calculate file hashes (SHA-256) to ensure data integrity.
+---
 
-GUI Interface: Navigate through the interface using the keyboard.
+## 🛠 **Особенности**
+- **Снимки директорий**: Создание снимков директорий для фиксации их текущего состояния.
+- **Целостность данных**: Вычисление хэшей файлов (SHA-256) для проверки целостности данных.
+- **Графический интерфейс**: Удобная навигация с помощью клавиатуры.
 
-Tab: Switch between windows.
+---
 
-Arrow Keys: Navigate through file lists.
+## 🎮 **Управление**
+Навигация по интерфейсу осуществляется клавишами:
+- **Tab**: Переключение между окнами.
+- **Стрелки**: Перемещение по списку файлов.
+- **Enter**: Выбор файла или выполнение команды.
+- **Пробел**: Аналог клавиши Esc для возврата на предыдущий экран.
 
-Enter: Select a file or execute a command.
+---
 
-Space: Equivalent to the Esc key for returning to the previous screen.
+## 🪟 **Окна интерфейса**
 
-Windows
-LOG Window
-Purpose: Logs all executed commands and their outputs.
+### **LOG Window**
+- **Назначение**: Логирование всех выполненных команд и их результатов.
+- **Использование**: Отображает журнал действий в реальном времени.
 
-Usage: Displays real-time logs of actions performed in the utility.
+### **INFO Window**
+- **Назначение**: Работа со снимками.
+- **Навигация**:
+  - Используйте стрелки для перемещения по списку файлов.
+  - Нажмите **Enter**, чтобы выбрать файл или выполнить действие.
+  - Нажмите **Space**, чтобы вернуться назад (аналог Esc).
 
-INFO Window
-Purpose: Used for working with snapshots.
+### **Terminal Window**
+- **Назначение**: Ввод и выполнение команд.
+- **Использование**: Введите команды в терминале для взаимодействия с утилитой.
 
-__Navigation:__
+---
 
-Use the Arrow Keys to navigate through the list of files.
+## 🚀 **Установка**
 
-Press Enter to select a file or execute an action.
-
-Press Space to return to the previous screen (equivalent to Esc).
-
-Terminal Window
-Purpose: Command input and execution.
-
-Usage: Enter commands directly into the terminal window to interact with the utility.
-
-**Installation**
-Ensure you have Go installed on your system. If not, download and install it from golang.org.
-
-Clone the repository:
-
-git clone https://github.com/crypto3301/SnapScan.git
-
+1. Убедитесь, что у вас установлен Go. Если нет, скачайте и установите его с [golang.org](https://golang.org/).
+2. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/crypto3301/SnapScan.git
